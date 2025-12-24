@@ -1,7 +1,7 @@
 import random
 from people_data import data
 
-from art_fourteen import logo,vs
+from art_HigherLower import logo,vs
 
 run_game = False
 print(logo)
@@ -49,5 +49,6 @@ while run_game == True:
 
     
     
+
 
 
