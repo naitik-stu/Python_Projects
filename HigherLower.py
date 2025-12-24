@@ -1,7 +1,7 @@
 import random
 from people_data import data
 
-from art_fourteen import logo
+from art_fourteen import logo,vs
 
 run_game = False
 print(logo)
@@ -24,9 +24,9 @@ while run_game == True:
     elif b_person['name'] not in used_set:
         used_set.add(b_person['name'])
 
-    print(f"Compare A: {a_person['name']}, a {a_person['description']}, from {a_person['country']}.")
-    print("VS")
-    print(f"Compare B: {b_person['name']}, a {b_person['description']}, from {b_person['country']}.")
+    print(f"\nCompare A: {a_person['name']}, a {a_person['description']}, from {a_person['country']}.\n")
+    print(vs)
+    print(f"\nCompare B: {b_person['name']}, a {b_person['description']}, from {b_person['country']}.\n")
     user_choice = input("Who has more followers? Type 'A' or 'B': ").lower()
     a_follower = a_person['follower_count']
     b_follower = b_person['follower_count']
@@ -49,4 +49,5 @@ while run_game == True:
 
     
     
+
 
