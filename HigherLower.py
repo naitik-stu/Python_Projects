@@ -1,5 +1,5 @@
 import random
-from people_data import data
+from HigherLower_Data import data
 
 from art_HigherLower import logo,vs
 
@@ -49,6 +49,7 @@ while run_game == True:
 
     
     
+
 
 
 
